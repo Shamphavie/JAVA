@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class IDCardCreation {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Taking user input
+        System.out.print("Enter Name: ");
+        String name = scanner.nextLine();
+        
+        System.out.print("Enter Age: ");
+        int age = scanner.nextInt();
+        scanner.nextLine();  // Consume the newline left by nextInt()
+        
+        System.out.print("Enter ID Number: ");
+        String idNumber = scanner.nextLine();
+        
+        System.out.print("Enter Department: ");
+        String department = scanner.nextLine();
+        
+        // Displaying the ID Card
+        System.out.println("\n============================");
+        System.out.println("          ID CARD           ");
+        Syste
